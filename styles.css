@@ -128,7 +128,7 @@ margin-bottom: 40px;
   display: flex;
   flex-direction: column;
 }
-.songitems{
+.songcards{
 display: flex;
 flex-direction: row;
 flex-wrap:wrap;
