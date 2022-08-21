@@ -1,0 +1,215 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background-color: black;
+}
+
+
+.musicicon{
+  color:#fff;
+  margin:10px;
+margin-right: 12px;
+}
+#navbar{
+  font-size: 20px;
+
+}
+#banner{
+
+  background-image:url("banners/banner7.jpeg");
+  height:500px;
+  width: 100vw;
+  background-size:cover;
+  background-position: center;
+
+}
+
+h1{
+  font-family: 'Rubik Dirt', cursive;
+  position: absolute;
+  left: 20vw;
+  font-size: 200px;
+  color: white;
+  line-height: 2;
+  margin: 20px;
+  padding: 20px;
+  margin-left: 30px;
+}
+#musicalbum{
+  background-color:black;
+
+  padding:100px;
+
+}
+.rescontainer{
+  display: none;
+}
+.container{
+
+margin:10px;
+
+}
+.albumheading{
+  color:white;
+  margin :20px;
+}
+.coverimg{
+  width:160px;
+  height:150px;
+  border-radius: 20px;
+}
+.row1{
+  margin:50px;
+}
+.row2{
+  margin:50px;
+}
+
+.songseeker{
+position:fixed;
+bottom: 0;
+width:100%;
+  padding:10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-color:#151515;
+  color:#fff
+}
+.seekicons{
+  cursor: pointer;
+  margin:10px;
+}
+.bar{
+  cursor: pointer;
+  margin:10px;
+  width:70%;
+  background: black;
+}
+.songinfo{
+margin-bottom: 40px;
+  position: absolute;
+  left:15vw;
+}
+.songinfo img{
+  opacity: 0;
+}
+.contact{
+  height:200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color:black;
+  color: #fff;
+  margin-bottom: 90px;
+}
+.footer-icons{
+  margin:20px;
+  color:#fff;
+}
+.copyright{
+  color:#fff;
+}
+
+
+@media(max-width:700px){
+
+
+.container{
+  display: none;
+}
+.rescontainer{
+  display: flex;
+  flex-direction: column;
+}
+.songitems{
+display: flex;
+flex-direction: row;
+flex-wrap:wrap;
+justify-content: center;
+align-items:center;
+}
+
+#musicalbum{
+    background-color: black;
+    padding:0;
+    margin:0;
+  }
+.albumheading{
+
+    margin: 10px;
+    margin-top: 20px;
+    padding:10px;
+
+
+  }
+.banner{
+    height: 70vh;
+    margin: 0;
+  }
+
+
+
+
+  .coverimg{
+    width:140px;
+    height:140px;
+    border-radius: 20px;
+  }
+
+.cards{
+  margin:15px;
+
+}
+.songseeker{
+position:fixed;
+bottom: 0;
+width:100%;
+  padding:10px;
+  display: flex;
+  text-align: center;
+
+  justify-content: center;
+  align-items: center;
+  background-color:#151515;
+  color:#fff
+}
+.seekicons{
+  cursor: pointer;
+  margin:10px;
+}
+.bar{
+  cursor: pointer;
+  margin:10px;
+  width:50%;
+  background: black;
+}
+.songinfo{
+margin-bottom: 20px;
+position:relative;
+margin-right: 135px;
+}
+.songinfo img{
+  opacity: 0;
+}
+#banner{
+
+  background-image:url("banners/banner7.jpeg");
+  height:300px;
+  width: 100vw;
+  background-size:cover;
+  background-position: center;
+
+}
+
+
+.headingdiv{
+display: none;
+}
+}
